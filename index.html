@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Font -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+<!-- Title -->    
+    <title>Talking Duck</title>
+
+<!-- Favicon -->
+    <link rel="icon" href="images/icon.png">
+
+<!-- Manifest app mobile -->
+    <link rel="manifest" href="site.webmanifest">
+
+<!-- Foglio di stile CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+
+<!-- Logo principale -->
+    <header>
+        <img src="images/logo.png" alt="Logo Anna Miolato">
+    </header>
+
+<!-- Zona inserimento testo -->
+<main>
+    <textarea placeholder="Scrivi qui..."></textarea>
+    
+<!-- Bottone play -->
+<div class="controls">
+        <button>
+            <img src="images/play.png" alt="Pulsante play">
+        </button>  
+
+<!-- Controllo del pitch -->
+    <div class="pitchControls">
+        <label>Pitch</label>
+        <input type="range" min="0" max="3" step="0,1">
+    </div>
+</div>
+    
+
+<!-- Inserimento figura paperella -->
+    <figure>
+        <img src="images/talking-duck-static.png" class="staticDuck" alt="Paperella parlante">
+        <img src="images/talking-duck-animated.gif" class="animatedDuck" alt="Paperella in silenzio">
+    </figure>
+    </main> 
+    </div>
+
+<!-- Aggiunta foglio Javascript -->    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
